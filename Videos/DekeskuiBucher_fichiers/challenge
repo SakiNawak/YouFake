@@ -1,0 +1,15 @@
+
+var RecaptchaState = {
+    challenge : 'SHUTDOWN',
+    timeout : 1800,
+    lang : '',
+    server : 'https://www.google.com/recaptcha/api/',
+    site : 'SHUTDOWN',
+    error_message : '',
+    programming_error : '',
+    is_incorrect : false,
+    rtl : false,
+    payload_url : 'https://www.gstatic.com/recaptcha/images/v1_unsupported.png'
+};
+
+document.write('<scr'+'ipt type="text/javascript" s'+'rc="' + RecaptchaState.server + 'js/recaptcha.js"></scr'+'ipt>');
